@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.58f2-44b8bf3a32' branch; Version is '6000.0.58f2 (92dee566b325) revision 9625317'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 7876 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-11-20T13:10:42Z
+Date: 2025-12-12T11:22:54Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.58f2-x86_64\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/Users/JordanDrakes/OneDrive - The Academy Charter School/Top-Down-Adventure/T
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50935
+53629
 -job-worker-count
 5
 -background-job-worker-count
@@ -62,12 +62,12 @@ C:/Users/JordanDrakes/OneDrive - The Academy Charter School/Top-Down-Adventure/T
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26408]  Target information:
+Player connection [24908]  Target information:
 
-Player connection [26408]  * "[IP] 10.220.24.115 [Port] 0 [Flags] 2 [Guid] 2506875720 [EditorId] 2506875720 [Version] 1048832 [Id] WindowsEditor(7,UAC-LS-CRC69Y3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [24908]  * "[IP] 192.168.1.209 [Port] 0 [Flags] 2 [Guid] 2919119965 [EditorId] 2919119965 [Version] 1048832 [Id] WindowsEditor(7,UAC-LS-CRC69Y3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26408] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26408] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24908] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24908] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,7 +79,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 552.98 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 624.66 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.58f2 (92dee566b325)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.58f2-x86_64/Editor/Data/Resources/UnitySubsystems
@@ -95,47 +95,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f2-x86_64/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f2-x86_64/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.58f2-x86_64/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f2-x86_64/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.58f2-x86_64/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.004579 seconds.
-- Loaded All Assemblies, in  0.438 seconds
+Registered in 0.965764 seconds.
+- Loaded All Assemblies, in 36.895 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.672 seconds
-Domain Reload Profiling: 1111ms
-	BeginReloadAssembly (154ms)
+- Finished resetting the current domain, in  1.885 seconds
+Domain Reload Profiling: 38775ms
+	BeginReloadAssembly (29742ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (175ms)
-		LoadAssemblies (152ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (1846ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (1070ms)
+	LoadAllAssembliesAndSetupDomain (4213ms)
+		LoadAssemblies (29756ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (172ms)
-			TypeCache.Refresh (170ms)
-				TypeCache.ScanAssembly (157ms)
+		AnalyzeDomain (4184ms)
+			TypeCache.Refresh (4180ms)
+				TypeCache.ScanAssembly (3121ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (674ms)
+	FinalizeReload (1886ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (538ms)
+		SetupLoadedEditorAssemblies (1788ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (105ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (228ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
+			InitializePlatformSupportModulesInManaged (937ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (194ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (204ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -154,8 +154,8 @@ DirectoryNotFoundException: Could not find a part of the path "C:\Users\JordanDr
   at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <5818bc53b12b4560b54110897827736e>:0 
   at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <5818bc53b12b4560b54110897827736e>:0 
 
-- Loaded All Assemblies, in  1.756 seconds
-Refreshing native plugins compatible for Editor in 9.12 ms, found 4 plugins.
+- Loaded All Assemblies, in 30.527 seconds
+Refreshing native plugins compatible for Editor in 6.24 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -163,109 +163,1039 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.224 seconds
-Domain Reload Profiling: 2966ms
-	BeginReloadAssembly (239ms)
+- Finished resetting the current domain, in  4.852 seconds
+Domain Reload Profiling: 35348ms
+	BeginReloadAssembly (432ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (1400ms)
-		LoadAssemblies (1197ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (29828ms)
+		LoadAssemblies (27632ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (316ms)
-			TypeCache.Refresh (197ms)
-				TypeCache.ScanAssembly (174ms)
-			BuildScriptInfoCaches (106ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1224ms)
+		AnalyzeDomain (2499ms)
+			TypeCache.Refresh (2312ms)
+				TypeCache.ScanAssembly (2280ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (4855ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (960ms)
+		SetupLoadedEditorAssemblies (3183ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (193ms)
-			ProcessInitializeOnLoadAttributes (460ms)
-			ProcessInitializeOnLoadMethodAttributes (276ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 7.81 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6717 unused Assets / (6.5 MB). Loaded Objects now: 7381.
-Memory consumption went from 149.0 MB to 142.5 MB.
-Total: 21.732000 ms (FindLiveObjects: 2.562100 ms CreateObjectMapping: 1.130100 ms MarkObjects: 10.737800 ms  DeleteObjects: 7.298900 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-DirectoryNotFoundException: Could not find a part of the path "C:\Users\JordanDrakes\OneDrive - The Academy Charter School\Top-Down-Adventure\Top-Down-Adventure\Totality-(TDA)\Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <152439c387994a8da523328132967f8d>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <152439c387994a8da523328132967f8d>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <5818bc53b12b4560b54110897827736e>:0 
-  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <5818bc53b12b4560b54110897827736e>:0 
-
-- Loaded All Assemblies, in  0.983 seconds
-Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.444 seconds
-Domain Reload Profiling: 2427ms
-	BeginReloadAssembly (389ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (88ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (47ms)
-	LoadAllAssembliesAndSetupDomain (486ms)
-		LoadAssemblies (391ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (284ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (252ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1445ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1184ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (236ms)
-			ProcessInitializeOnLoadAttributes (769ms)
-			ProcessInitializeOnLoadMethodAttributes (143ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (311ms)
+			ProcessInitializeOnLoadAttributes (1158ms)
+			ProcessInitializeOnLoadMethodAttributes (1669ms)
+			AfterProcessingInitializeOnLoad (13ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (32ms)
-Refreshing native plugins compatible for Editor in 7.30 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 11.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6715 unused Assets / (5.4 MB). Loaded Objects now: 7385.
-Memory consumption went from 149.8 MB to 144.4 MB.
-Total: 23.766400 ms (FindLiveObjects: 2.892700 ms CreateObjectMapping: 1.657800 ms MarkObjects: 13.544300 ms  DeleteObjects: 5.667600 ms)
+Unloading 35 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6717 unused Assets / (6.7 MB). Loaded Objects now: 7381.
+Memory consumption went from 149.0 MB to 142.3 MB.
+Total: 28.773300 ms (FindLiveObjects: 2.455000 ms CreateObjectMapping: 1.072000 ms MarkObjects: 16.511800 ms  DeleteObjects: 8.731100 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1333948.103094 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_316.asset
+  artifactKey: Guid(20f29393d3f016d4f9833252bb32535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_316.asset using Guid(20f29393d3f016d4f9833252bb32535a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37c502fdc833b2227fda7e78d6a0458f') in 0.2500919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_43.asset
+  artifactKey: Guid(8be4617d5678202489833c6c173906d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_43.asset using Guid(8be4617d5678202489833c6c173906d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb7000cbcb94eb27deca3fecaeaadd3f') in 0.0415167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_341.asset
+  artifactKey: Guid(93b0d67147db03443a9de665f93806fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_341.asset using Guid(93b0d67147db03443a9de665f93806fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07583179b742cd3e8df95333f20cb85c') in 0.0510504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_349.asset
+  artifactKey: Guid(39827e742c9a79a4fb9318e72aaa42ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_349.asset using Guid(39827e742c9a79a4fb9318e72aaa42ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd50a3c73b4a3e5b0c76c75a6b9a38b9d') in 0.0388957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_173.asset
+  artifactKey: Guid(3cf50ab17ee0b60408567baec883a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_173.asset using Guid(3cf50ab17ee0b60408567baec883a924) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f2354efb6c938125f8c89fd9186d395') in 0.0458023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_125.asset
+  artifactKey: Guid(8b82d48b4d47e7e409550257b398637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_125.asset using Guid(8b82d48b4d47e7e409550257b398637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eb02582f87ccf0772f45f701733f8c2') in 0.0461338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_167.asset
+  artifactKey: Guid(6a8968187931e48498c1930030918210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_167.asset using Guid(6a8968187931e48498c1930030918210) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3420659d8daa18b0bca943dce8a2c3ca') in 0.0459005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_61.asset
+  artifactKey: Guid(59e23e0fe00d9c843b1ca2b1e655ad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_61.asset using Guid(59e23e0fe00d9c843b1ca2b1e655ad7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58cba019f04cd18efba7d473b9717927') in 0.0505566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_249.asset
+  artifactKey: Guid(94ceebd0ea0d32e44912cb494828a914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_249.asset using Guid(94ceebd0ea0d32e44912cb494828a914) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78d4cc774ff7f3c7b02ba98a4e2068bb') in 0.0490679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_254.asset
+  artifactKey: Guid(34d2362054585bd48946d9928adbe895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_254.asset using Guid(34d2362054585bd48946d9928adbe895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c469276f5983810d21208686e4e3953') in 0.0513029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_65.asset
+  artifactKey: Guid(2a553177efc671f4388a9e258c74576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_65.asset using Guid(2a553177efc671f4388a9e258c74576c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52890001e388bbebef03c6b540f00544') in 0.0431043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_170.asset
+  artifactKey: Guid(d3946c44494e7cd409aff360481e8cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_170.asset using Guid(d3946c44494e7cd409aff360481e8cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0b698cffbae88ddd49d9462ee1a501c') in 0.0426143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_289.asset
+  artifactKey: Guid(ccf724fabe4ab3643b0ddee5ee31a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_289.asset using Guid(ccf724fabe4ab3643b0ddee5ee31a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'edb796857263f9e4069dd5a984c813c9') in 0.0480275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_121.asset
+  artifactKey: Guid(7851ef3b3b35fd845b84be3dd9897d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_121.asset using Guid(7851ef3b3b35fd845b84be3dd9897d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90d741efb4595390fff8d8f7f3c60b92') in 0.0466447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_291.asset
+  artifactKey: Guid(46f22734b80fd57468e35179441d44b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_291.asset using Guid(46f22734b80fd57468e35179441d44b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63951038637f61de09f318596b06398e') in 0.0511848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_246.asset
+  artifactKey: Guid(9064ea0ce8a24b246bb35a1005164eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_246.asset using Guid(9064ea0ce8a24b246bb35a1005164eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3d73499d11f3c81b39c1c72a8c4e803') in 0.0483575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_157.asset
+  artifactKey: Guid(4edc494b060641c4da508e883c0638a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_157.asset using Guid(4edc494b060641c4da508e883c0638a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbf09483b2b96b932815691a13fb1b72') in 0.0578821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_352.asset
+  artifactKey: Guid(8289d508a2a8c1a42b35e67e2c083a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_352.asset using Guid(8289d508a2a8c1a42b35e67e2c083a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd558502c15e344e0d862bb68b24f547') in 0.0519127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_52.asset
+  artifactKey: Guid(171d2ea02438b82438db7bc41751882e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_52.asset using Guid(171d2ea02438b82438db7bc41751882e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e81a3ef6dbd2f245973fcd79d3b7a7a') in 0.053199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_9.asset
+  artifactKey: Guid(168d9b889d84dcd499a67c46291f5dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_9.asset using Guid(168d9b889d84dcd499a67c46291f5dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e708183dae200c99dbc8dc895eda056') in 0.0473779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_106.asset
+  artifactKey: Guid(b018d6aff648e2244bdd26fd5c3bc961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_106.asset using Guid(b018d6aff648e2244bdd26fd5c3bc961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c72cb09a2754e7648848ab137a760a72') in 0.0424032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_49.asset
+  artifactKey: Guid(b8b73f93bb92f574680a0d9d158d4544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_49.asset using Guid(b8b73f93bb92f574680a0d9d158d4544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77a66e3f395083560dd6f9303f784e2f') in 0.0490286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_171.asset
+  artifactKey: Guid(7aa398b49d3a62845b35994812fb0602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_171.asset using Guid(7aa398b49d3a62845b35994812fb0602) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b23f9624d8b92d0380dbccbe829cc95') in 0.0425462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_45.asset
+  artifactKey: Guid(c7250da1bae3005448a5dd1b3fdf6719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_45.asset using Guid(c7250da1bae3005448a5dd1b3fdf6719) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b62493b038c6de34cf8892525794a740') in 0.0458496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_26.asset
+  artifactKey: Guid(633e819ae49ce9f4a85725f4d7172b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_26.asset using Guid(633e819ae49ce9f4a85725f4d7172b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dcf513a5237b86c12fc01d47949f68b') in 0.0427118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_15.asset
+  artifactKey: Guid(bf849a5a1ccf91f4b95c75fb71e53006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_15.asset using Guid(bf849a5a1ccf91f4b95c75fb71e53006) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '170d0a10ad92362be4d1cd92d4dc5df2') in 0.0797319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_39.asset
+  artifactKey: Guid(85f3c473686c250468165652550da603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_39.asset using Guid(85f3c473686c250468165652550da603) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb885d2934424488259c0788619c280f') in 0.0502063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_305.asset
+  artifactKey: Guid(e76d0367f3bd7cf4eaa3301c45841139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_305.asset using Guid(e76d0367f3bd7cf4eaa3301c45841139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20b7f1cfdd4e9fad944f4df83ed29f06') in 0.047167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_131.asset
+  artifactKey: Guid(1ed988f09bef55341ad2923c0cdedc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_131.asset using Guid(1ed988f09bef55341ad2923c0cdedc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9cbf5cca68b8a21dcdbecb31a00eac5') in 0.0459255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_115.asset
+  artifactKey: Guid(43f710a8f2f6f9145b174c7a2b187035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_115.asset using Guid(43f710a8f2f6f9145b174c7a2b187035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41e54a0432f246ab8ebe106580c291c9') in 0.0440221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_54.asset
+  artifactKey: Guid(e74271308daba9f4585564fd53fcaf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_54.asset using Guid(e74271308daba9f4585564fd53fcaf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '723ff57f952d9359686a7c7cf152e543') in 0.0592619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_300.asset
+  artifactKey: Guid(f860def85d88993419d9e60847268dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_300.asset using Guid(f860def85d88993419d9e60847268dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9a933344c6f524163a9d3a93081d1f6') in 0.0408136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_294.asset
+  artifactKey: Guid(6856ad00cf172c64c99974d616d70cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_294.asset using Guid(6856ad00cf172c64c99974d616d70cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0f8fba90e8a0168417cebbf966ae94a') in 0.0402377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_79.asset
+  artifactKey: Guid(82e841f9ec942ce4793f70b3e36df7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_79.asset using Guid(82e841f9ec942ce4793f70b3e36df7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c24f0d279fd4cf871d9aa24dabb5b8d') in 0.042492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_235.asset
+  artifactKey: Guid(cf16f218ba68ff848becff85839c0a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_235.asset using Guid(cf16f218ba68ff848becff85839c0a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c816660c27745c190376c3987c08eee9') in 0.0498175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_30.asset
+  artifactKey: Guid(cd23c07f0fc83064a91e821743fba6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_30.asset using Guid(cd23c07f0fc83064a91e821743fba6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '964bd9464595377f96fccdbbcdf3affe') in 0.0411734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_311.asset
+  artifactKey: Guid(7df43f39b125aad47821f9a1f79269ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_311.asset using Guid(7df43f39b125aad47821f9a1f79269ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de0a29b3cfcc51fa291afdaa5bcaa250') in 0.0419741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_297.asset
+  artifactKey: Guid(68280721a11c750419a7ec378ccaf1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_297.asset using Guid(68280721a11c750419a7ec378ccaf1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bf684560ded8e287d93f868a96f2e85') in 0.048039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_245.asset
+  artifactKey: Guid(fa94fcbf13fd88e49b98402f29958152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_245.asset using Guid(fa94fcbf13fd88e49b98402f29958152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '632b3e5a5bb137c221ab413277d1c31d') in 0.0471938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_42.asset
+  artifactKey: Guid(8795031a0ffaa0f498391b99d6e11b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_42.asset using Guid(8795031a0ffaa0f498391b99d6e11b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a307b57f9eec44c49abb561f3deb39f2') in 0.0429759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_47.asset
+  artifactKey: Guid(e84cdf6329fb8d64f8cd7990079cb7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_47.asset using Guid(e84cdf6329fb8d64f8cd7990079cb7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85cb70a68a62a6557b832dc6753699c2') in 0.0437367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_236.asset
+  artifactKey: Guid(d0e2e5724dc03a34b9d392d1e3bf78c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_236.asset using Guid(d0e2e5724dc03a34b9d392d1e3bf78c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0238a1229b7fd54fb5cb98d4ccda7cbe') in 0.049366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_75.asset
+  artifactKey: Guid(4fdf48f285773a54ca280b2fc112e81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_75.asset using Guid(4fdf48f285773a54ca280b2fc112e81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5b4da7d5618590da0dad7635fae95d8') in 0.0507171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_165.asset
+  artifactKey: Guid(02a339b3acbeb944e8116c53747c6262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_165.asset using Guid(02a339b3acbeb944e8116c53747c6262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbbe730bd03d78e4282716600e76954c') in 0.0495964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_1.asset
+  artifactKey: Guid(d9e10fba40907194abb75522b3d26cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_1.asset using Guid(d9e10fba40907194abb75522b3d26cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2070894b475ffb416768b5a1b1184565') in 0.0441654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_238.asset
+  artifactKey: Guid(6413979fc783405499cb39a51b52e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_238.asset using Guid(6413979fc783405499cb39a51b52e487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff967944c8994268731ab883db189e1c') in 0.0579858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_248.asset
+  artifactKey: Guid(3845198a86313f24b802f3f5e97f0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_248.asset using Guid(3845198a86313f24b802f3f5e97f0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32a4146ccf5fa23cabc60644301e7335') in 0.0408887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_14.asset
+  artifactKey: Guid(31cabaec4e3817d4a8d6e0c1bc3e9f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_14.asset using Guid(31cabaec4e3817d4a8d6e0c1bc3e9f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8b3a11590027a434d3a73610a68a310') in 0.080042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_57.asset
+  artifactKey: Guid(c23a7cf450ade804a89f2623e5930705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_57.asset using Guid(c23a7cf450ade804a89f2623e5930705) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1def8a37c0c74f0c753c53318397cfc5') in 0.0437948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_69.asset
+  artifactKey: Guid(7959b862b1522de46a0a84fe17e12480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_69.asset using Guid(7959b862b1522de46a0a84fe17e12480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0073b6ff77ca804010a75efeb31c97e5') in 0.0531726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_244.asset
+  artifactKey: Guid(73b9ebdda31b52b4289ace4a976090e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_244.asset using Guid(73b9ebdda31b52b4289ace4a976090e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8720183d16b135829d432d52d92b6c14') in 0.0571361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_301.asset
+  artifactKey: Guid(9f5dc0f06ad145c4eaddd451c54d0276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_301.asset using Guid(9f5dc0f06ad145c4eaddd451c54d0276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d76e17519d4163afb0681ec76755b24') in 0.0479993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_55.asset
+  artifactKey: Guid(9cf7f28af9a838e47bc98562d3066e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_55.asset using Guid(9cf7f28af9a838e47bc98562d3066e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6848367245e8ea0fe157c77513068cc') in 0.0414255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_348.asset
+  artifactKey: Guid(064f4bcd8cfd34840849ca0a2ece5af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_348.asset using Guid(064f4bcd8cfd34840849ca0a2ece5af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e828656109def01d87ab19a3287eaea6') in 0.0426458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_56.asset
+  artifactKey: Guid(8fbfb611f098d6a4fa3da9c98b292250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_56.asset using Guid(8fbfb611f098d6a4fa3da9c98b292250) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d6e38cb527014fa1c49d4cbce436403') in 0.0474167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_334.asset
+  artifactKey: Guid(2c1229651ffec7c48b054c0947dcb16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_334.asset using Guid(2c1229651ffec7c48b054c0947dcb16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7d97129779d0f95ccbbe4e735567b26') in 0.0414826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_293.asset
+  artifactKey: Guid(001ea1b9e409b2f4e8e23caf47013f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_293.asset using Guid(001ea1b9e409b2f4e8e23caf47013f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cad54c72816b1db381594e722fc4de8') in 0.0396615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_25.asset
+  artifactKey: Guid(84a26056cb3f42f4cbdeb0b27522f3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_25.asset using Guid(84a26056cb3f42f4cbdeb0b27522f3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cefc3d864ac999f0dc34db0a2254d865') in 0.0470172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_354.asset
+  artifactKey: Guid(31dbb98142b9556418f1fc0a3f5a1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_354.asset using Guid(31dbb98142b9556418f1fc0a3f5a1c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '013bccea206117540919f6c0721efbaf') in 0.0428881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_156.asset
+  artifactKey: Guid(3f8d600435d1ff043a960a063d6f7dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_156.asset using Guid(3f8d600435d1ff043a960a063d6f7dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '083544fc5e572ff950bb9fa98b095f60') in 0.048538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_239.asset
+  artifactKey: Guid(9e09b2407fbe60d4fa3d685bc1897914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_239.asset using Guid(9e09b2407fbe60d4fa3d685bc1897914) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b44c8ec33690632bb1d15b334a5e3847') in 0.042982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_111.asset
+  artifactKey: Guid(c726d62a7fe38d94c936452ee2ec287a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_111.asset using Guid(c726d62a7fe38d94c936452ee2ec287a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdd7da56a386b1bce375669357737753') in 0.0439464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_113.asset
+  artifactKey: Guid(14299ef6e5bc6534ea12c45499b1ec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_113.asset using Guid(14299ef6e5bc6534ea12c45499b1ec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88649da1913e5c70d221ee82680c35e8') in 0.0437233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_325.asset
+  artifactKey: Guid(ac13d6a73de30da41b0ea041cc8f54fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_325.asset using Guid(ac13d6a73de30da41b0ea041cc8f54fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b311b9e897b02ae7432a23bbaeaf9887') in 0.0540349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_29.asset
+  artifactKey: Guid(2eb0e4ee143e1b341ad4e91b64e3ddd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_29.asset using Guid(2eb0e4ee143e1b341ad4e91b64e3ddd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e09c02439e1f98152c376ab8a761a205') in 0.0437932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_130.asset
+  artifactKey: Guid(ebe75e34feef1f74b8112b23d123e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_130.asset using Guid(ebe75e34feef1f74b8112b23d123e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f49a8389e99c504845eeb14ce7313c7') in 0.0483688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_154.asset
+  artifactKey: Guid(5425cd3d622f66942ae1345d39928e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_154.asset using Guid(5425cd3d622f66942ae1345d39928e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ed46830237edf2c26ea4ddced57044d') in 0.0467294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_53.asset
+  artifactKey: Guid(9176e181cce77eb4abdd42845309fb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_53.asset using Guid(9176e181cce77eb4abdd42845309fb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a80620d4943a5c59450893873b517dab') in 0.0460343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_120.asset
+  artifactKey: Guid(7828a0e6a8b53914b8c7a4c6fe03df22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_120.asset using Guid(7828a0e6a8b53914b8c7a4c6fe03df22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fd6e98d3d617b204a444712975c84ab') in 0.0457455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_128.asset
+  artifactKey: Guid(6361d73159af1404091a8c460cb2f6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_128.asset using Guid(6361d73159af1404091a8c460cb2f6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '563afbe4f76086f74226f1c29c80e928') in 0.0722642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_318.asset
+  artifactKey: Guid(e2eda64cdbdd94b45a5d7ee100fc8953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_318.asset using Guid(e2eda64cdbdd94b45a5d7ee100fc8953) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '319b7b9b4b429fc35b00b30e3af5e057') in 0.0683011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_33.asset
+  artifactKey: Guid(5924c8270f755754f9f2305140fd4d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_33.asset using Guid(5924c8270f755754f9f2305140fd4d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f18766041f7de63793a56462b7c041b1') in 0.0562827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_299.asset
+  artifactKey: Guid(2acf9447d277a1d4b99c804212530631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_299.asset using Guid(2acf9447d277a1d4b99c804212530631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04c2f0fcd8529b61247963d02b78e924') in 0.0455992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_67.asset
+  artifactKey: Guid(3c102a5e70db7c8468fcbbbbaeb65b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_67.asset using Guid(3c102a5e70db7c8468fcbbbbaeb65b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e48cd4adaf0e5a2254709e5dfab686b') in 0.0427308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_296.asset
+  artifactKey: Guid(0d2f739f5a958f345bcc30d3b11d2d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_296.asset using Guid(0d2f739f5a958f345bcc30d3b11d2d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98841293a64e5adc5c10f10d09828a47') in 0.0494288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_117.asset
+  artifactKey: Guid(a51eea4def789654db545d57ad4e4892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_117.asset using Guid(a51eea4def789654db545d57ad4e4892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8234bcf683428e7c9504ff72f256df4d') in 0.0458871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_306.asset
+  artifactKey: Guid(569329868d1b4e84ab3d11c1f6051d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_306.asset using Guid(569329868d1b4e84ab3d11c1f6051d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5603cd45062d50a0f615e3643c7195ef') in 0.0429037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_13.asset
+  artifactKey: Guid(2c38be0a2e434f6439e98633883a50fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_13.asset using Guid(2c38be0a2e434f6439e98633883a50fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47bd831d75afd0b552c28709fa3eaa03') in 0.060651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_290.asset
+  artifactKey: Guid(aee50486762022b449ce246335b1c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_290.asset using Guid(aee50486762022b449ce246335b1c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26ddaf8143442d0b6278e75fc0c55d21') in 0.0507637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_37.asset
+  artifactKey: Guid(3c9e68e6c1ada0c4492faf0991a9fc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_37.asset using Guid(3c9e68e6c1ada0c4492faf0991a9fc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b48dbb0a9bed99a413716f4453c131ab') in 0.0463616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_251.asset
+  artifactKey: Guid(8dc8ebbacf92a994f91ed8be2f3299ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_251.asset using Guid(8dc8ebbacf92a994f91ed8be2f3299ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6790d529cc83254549060a6573788c95') in 0.0474965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_129.asset
+  artifactKey: Guid(2e14c9064c958aa429716c567147042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_129.asset using Guid(2e14c9064c958aa429716c567147042c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '896c9e5b40b2597a52b9f9f3e07c7a73') in 0.0536894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_331.asset
+  artifactKey: Guid(48c94d7977123834aa4c2a9b61b254ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_331.asset using Guid(48c94d7977123834aa4c2a9b61b254ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53516f6381a2aae5dcdda82c9d652475') in 0.0566693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_7.asset
+  artifactKey: Guid(18391e4c5f9c2764bae94a597ac0fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_7.asset using Guid(18391e4c5f9c2764bae94a597ac0fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '304a03cead6c132982aa6fd322404ec0') in 0.0475021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_234.asset
+  artifactKey: Guid(543fed3eb850ea2489963b9eb25f6499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_234.asset using Guid(543fed3eb850ea2489963b9eb25f6499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '628a848c8a60fcf1d85eb69f987a2405') in 0.0456772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_110.asset
+  artifactKey: Guid(b875d502f050dfa4ea7ba1f9a3631eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_110.asset using Guid(b875d502f050dfa4ea7ba1f9a3631eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97b36e54f77ee419c124ccc138a7d454') in 0.0476191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_73.asset
+  artifactKey: Guid(262fc2b3ff7c9744f968b00256fa4409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_73.asset using Guid(262fc2b3ff7c9744f968b00256fa4409) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dae65aa3f3e634ef5578163882364d01') in 0.0441373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_332.asset
+  artifactKey: Guid(bc99775da1462164a9b7f6649d8badeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_332.asset using Guid(bc99775da1462164a9b7f6649d8badeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '903b21ec3c5cc21891700e461c9125a4') in 0.0438567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.986519 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_82.asset
+  artifactKey: Guid(b89e45aec6584af4889c8ffcdc9d55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_82.asset using Guid(b89e45aec6584af4889c8ffcdc9d55ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '673044d45e86d767b6e8fd35560dd53b') in 0.051598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_83.asset
+  artifactKey: Guid(df0fdeec4f0be9448b9f76d8cd754353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_83.asset using Guid(df0fdeec4f0be9448b9f76d8cd754353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acf05af825b1cb1190617a7f8504adb2') in 0.0376606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_87.asset
+  artifactKey: Guid(534941c5453941b42884ec79dda9fb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_87.asset using Guid(534941c5453941b42884ec79dda9fb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16e1ccbf24afc1d13b560e1a9df18267') in 0.0455713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.890735 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_91.asset
+  artifactKey: Guid(28e5c1bb3e59eea4685259dfa1057b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_91.asset using Guid(28e5c1bb3e59eea4685259dfa1057b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbe4249c5d159cd826fa191bf743039b') in 0.0252147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_97.asset
+  artifactKey: Guid(48d71d1b97889c943b03d315f13adb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_97.asset using Guid(48d71d1b97889c943b03d315f13adb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a137c8fcc637b0cc892a8c5cc8f83528') in 0.0491525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_96.asset
+  artifactKey: Guid(46872a07822482c469416afd30b8f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_96.asset using Guid(46872a07822482c469416afd30b8f673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3269c0d76bc5fcdc62366e9c9e7742c0') in 0.0384895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_92.asset
+  artifactKey: Guid(efbcd335d7c65c1418b7ff94c5665ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_92.asset using Guid(efbcd335d7c65c1418b7ff94c5665ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47dc47b2b14fc5310824b4cfca44cd0f') in 0.0160405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_98.asset
+  artifactKey: Guid(d76416ab7085e4e4b88786c171c8c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_98.asset using Guid(d76416ab7085e4e4b88786c171c8c335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10dca2d9b83363d915187502e396e1f7') in 0.0406152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_99.asset
+  artifactKey: Guid(90bb1b05a1b8f6945b7a25c3005422e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_99.asset using Guid(90bb1b05a1b8f6945b7a25c3005422e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e1e37c3ecb8af22bd39b46af715c3b5') in 0.038498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.624999 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_135.asset
+  artifactKey: Guid(ef06de047e74b7745b4a38d0d0db7f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_135.asset using Guid(ef06de047e74b7745b4a38d0d0db7f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '181c985779e3c5e867cc746b04a78cc0') in 0.0505149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_138.asset
+  artifactKey: Guid(b6d6c50d79522b2429d4d2370595897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_138.asset using Guid(b6d6c50d79522b2429d4d2370595897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd10489722509d7fa05eb9e96bca358e') in 0.0432399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_140.asset
+  artifactKey: Guid(37e95374884d37745a16d8dd85ce8995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_140.asset using Guid(37e95374884d37745a16d8dd85ce8995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f01642e4155d6bcf82d7a2daabc89926') in 0.0453905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_139.asset
+  artifactKey: Guid(31613f29ea420414b8172990500e93cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_139.asset using Guid(31613f29ea420414b8172990500e93cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8778f94b05e4cdc1559b0fa4e930da3a') in 0.0385547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_149.asset
+  artifactKey: Guid(19b7d177440a61645bcf9393c02416e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_149.asset using Guid(19b7d177440a61645bcf9393c02416e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57defa14d701dbd662fcbeff26861ece') in 0.0430412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_146.asset
+  artifactKey: Guid(ce655d811387e804a9c268a7a4b70f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_146.asset using Guid(ce655d811387e804a9c268a7a4b70f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f7901f42af9835b9ae0d75bea81cec6') in 0.0498186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_145.asset
+  artifactKey: Guid(53620a5222642c0498e9620420b18ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_145.asset using Guid(53620a5222642c0498e9620420b18ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d546e1268b23ee18914b8af496e2db2') in 0.0413721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_143.asset
+  artifactKey: Guid(fb3448c87b3480244b607e21e7803902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_143.asset using Guid(fb3448c87b3480244b607e21e7803902) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3fa79da6cd446c63268b5c691d8b7b4c') in 0.0466775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_136.asset
+  artifactKey: Guid(399140f5e8291e2409073648916a8a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_136.asset using Guid(399140f5e8291e2409073648916a8a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '606774273c455b67658543d559a87c28') in 0.0382269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.623127 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_180.asset
+  artifactKey: Guid(5f3f6270ecd3ab94293841af04441e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_180.asset using Guid(5f3f6270ecd3ab94293841af04441e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3a72f924647be1e2fbd4fd4de07b14a') in 0.0473372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_182.asset
+  artifactKey: Guid(92338664b768a9745b8eb5bab4ada5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_182.asset using Guid(92338664b768a9745b8eb5bab4ada5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '003849cbe76dc0c1a1018ebf51cea70d') in 0.0435957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_184.asset
+  artifactKey: Guid(da1aa80ee5738a24e98749881be75696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_184.asset using Guid(da1aa80ee5738a24e98749881be75696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e80d9942d0da5b141aeee989cc7233d1') in 0.0504699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131042 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_189.asset
+  artifactKey: Guid(7c2db100a90fb334ba1c032337a450e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_189.asset using Guid(7c2db100a90fb334ba1c032337a450e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0edf5f3ebc6929211af69ca0770caf50') in 0.045078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_195.asset
+  artifactKey: Guid(7919fdd707eea4644a36ab5e5ca8793d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_195.asset using Guid(7919fdd707eea4644a36ab5e5ca8793d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd14fd5c6a5b18d26c01268c2369e704b') in 0.0437765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_191.asset
+  artifactKey: Guid(b905bf6711cc5944881c8ed80b952273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_191.asset using Guid(b905bf6711cc5944881c8ed80b952273) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28b7ed7843c89f8240e151e50da210f2') in 0.047153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_198.asset
+  artifactKey: Guid(95b7fe4c697f17f46985495203966cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_198.asset using Guid(95b7fe4c697f17f46985495203966cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2354582d039d8141afd8cb556a50bc0') in 0.0465126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_202.asset
+  artifactKey: Guid(1352dc30e9dd3044c8dd1b5ab9277f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_202.asset using Guid(1352dc30e9dd3044c8dd1b5ab9277f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04e8831cc03a13156e7870942581c903') in 0.0552649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_203.asset
+  artifactKey: Guid(da726177349fc054e9b3f7ba47e0e64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_203.asset using Guid(da726177349fc054e9b3f7ba47e0e64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b47662d6ab546b165a2c1608844c28df') in 0.0480933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221743 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_207.asset
+  artifactKey: Guid(2dfc7587ac762254684debda0f869011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_207.asset using Guid(2dfc7587ac762254684debda0f869011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46133cc4d221acf6a11553f8408c331c') in 0.0462777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_210.asset
+  artifactKey: Guid(b47243a0930cdb9439c53c0b6bd49461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_210.asset using Guid(b47243a0930cdb9439c53c0b6bd49461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dac1ebee0057035d997b578f72130a26') in 0.0443478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_212.asset
+  artifactKey: Guid(6be46bf08a64de843a777e2d3d76ffbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_212.asset using Guid(6be46bf08a64de843a777e2d3d76ffbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd326a3e1b581e2e90c15cf3afb77e44d') in 0.0498529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055520 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_216.asset
+  artifactKey: Guid(3d7fcc417a912994486bb9e6a5ba0741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_216.asset using Guid(3d7fcc417a912994486bb9e6a5ba0741) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c346018d3a4b4a06bc7c6c1f69df04a7') in 0.0458069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_222.asset
+  artifactKey: Guid(cca1891b4ae3b9246a64f312dc4d2be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_222.asset using Guid(cca1891b4ae3b9246a64f312dc4d2be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32cc699708aad5eb82b09fe09dec17b2') in 0.0476841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_218.asset
+  artifactKey: Guid(5ab23aa7934325e46b2c74aece612f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_218.asset using Guid(5ab23aa7934325e46b2c74aece612f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32f254c2944293e8bfc425551f9c03ce') in 0.0496233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.346919 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_225.asset
+  artifactKey: Guid(1a71f6bfd459ca049bc95b0d09242769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_225.asset using Guid(1a71f6bfd459ca049bc95b0d09242769) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73850f9263e527c9ee7a735ee90e2378') in 0.021394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_231.asset
+  artifactKey: Guid(5c54f84e0486a204facf405d558764f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_231.asset using Guid(5c54f84e0486a204facf405d558764f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'af5a264891f7d6a0299dd5b2a63b0e1f') in 0.0440799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Tilesets/Ground/TilesetFloor_230.asset
+  artifactKey: Guid(878482ed32fb8704ebad5e2594836bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Tilesets/Ground/TilesetFloor_230.asset using Guid(878482ed32fb8704ebad5e2594836bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73afb3a32790eefca70a54695796f82c') in 0.0385807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -279,184 +1209,52 @@ DirectoryNotFoundException: Could not find a part of the path "C:\Users\JordanDr
   at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <5818bc53b12b4560b54110897827736e>:0 
   at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <5818bc53b12b4560b54110897827736e>:0 
 
-- Loaded All Assemblies, in  0.801 seconds
-Refreshing native plugins compatible for Editor in 1.47 ms, found 4 plugins.
+- Loaded All Assemblies, in  3.876 seconds
+Refreshing native plugins compatible for Editor in 6.94 ms, found 4 plugins.
 Native extension for iOS target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.187 seconds
-Domain Reload Profiling: 1989ms
-	BeginReloadAssembly (285ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+- Finished resetting the current domain, in  1.543 seconds
+Domain Reload Profiling: 5423ms
+	BeginReloadAssembly (2428ms)
+		ExecutionOrderSort (3ms)
+		DisableScriptedObjects (289ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (69ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (430ms)
-		LoadAssemblies (337ms)
+		ReleaseScriptingObjects (9ms)
+		CreateAndSetChildDomain (977ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (1233ms)
+		LoadAssemblies (1410ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (230ms)
-			TypeCache.Refresh (9ms)
+		AnalyzeDomain (453ms)
+			TypeCache.Refresh (29ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (203ms)
+			BuildScriptInfoCaches (394ms)
 			ResolveRequiredComponents (13ms)
-	FinalizeReload (1188ms)
+	FinalizeReload (1543ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1006ms)
+		SetupLoadedEditorAssemblies (1162ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (237ms)
-			ProcessInitializeOnLoadAttributes (642ms)
-			ProcessInitializeOnLoadMethodAttributes (101ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (328ms)
+			ProcessInitializeOnLoadAttributes (660ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 2.98 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 6.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6715 unused Assets / (6.8 MB). Loaded Objects now: 7388.
-Memory consumption went from 149.8 MB to 143.1 MB.
-Total: 16.276900 ms (FindLiveObjects: 1.105300 ms CreateObjectMapping: 0.590900 ms MarkObjects: 6.632300 ms  DeleteObjects: 7.946800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-DirectoryNotFoundException: Could not find a part of the path "C:\Users\JordanDrakes\OneDrive - The Academy Charter School\Top-Down-Adventure\Top-Down-Adventure\Totality-(TDA)\Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <152439c387994a8da523328132967f8d>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <152439c387994a8da523328132967f8d>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <5818bc53b12b4560b54110897827736e>:0 
-  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <5818bc53b12b4560b54110897827736e>:0 
-
-- Loaded All Assemblies, in  4.599 seconds
-Refreshing native plugins compatible for Editor in 6.57 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.450 seconds
-Domain Reload Profiling: 6080ms
-	BeginReloadAssembly (2126ms)
-		ExecutionOrderSort (1ms)
-		DisableScriptedObjects (400ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (4ms)
-		CreateAndSetChildDomain (812ms)
-	RebuildCommonClasses (112ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (110ms)
-	LoadAllAssembliesAndSetupDomain (2257ms)
-		LoadAssemblies (1564ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1061ms)
-			TypeCache.Refresh (75ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (917ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (1451ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1096ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (259ms)
-			ProcessInitializeOnLoadAttributes (693ms)
-			ProcessInitializeOnLoadMethodAttributes (108ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (26ms)
-Refreshing native plugins compatible for Editor in 5.84 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6715 unused Assets / (7.1 MB). Loaded Objects now: 7391.
-Memory consumption went from 149.9 MB to 142.8 MB.
-Total: 34.068600 ms (FindLiveObjects: 1.857100 ms CreateObjectMapping: 1.304400 ms MarkObjects: 16.869000 ms  DeleteObjects: 14.033100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 71046.525407 seconds.
-  path: Assets/Art/TilesetHouse.png
-  artifactKey: Guid(1cb6b767a6d472d4c9a92a9cdbaceecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/TilesetHouse.png using Guid(1cb6b767a6d472d4c9a92a9cdbaceecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6e77f7985001a0cc12b7a53c72d4df7') in 1.2348888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-DirectoryNotFoundException: Could not find a part of the path "C:\Users\JordanDrakes\OneDrive - The Academy Charter School\Top-Down-Adventure\Top-Down-Adventure\Totality-(TDA)\Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll"
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <152439c387994a8da523328132967f8d>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00000] in <152439c387994a8da523328132967f8d>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
-  at Mono.Cecil.ModuleDefinition.GetFileStream (System.String fileName, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share) [0x00006] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.ModuleDefinition.ReadModule (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00008] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at Mono.Cecil.AssemblyDefinition.ReadAssembly (System.String fileName, Mono.Cecil.ReaderParameters parameters) [0x00000] in <a6860a9f6366437387ebdc1f225b7fd4>:0 
-  at UnityEditor.AssemblyValidation.LoadAssemblyDefinitions (System.String[] assemblyPaths, System.String[] searchPaths) [0x00048] in <5818bc53b12b4560b54110897827736e>:0 
-  at UnityEditor.AssemblyValidation.ValidateAssemblies (System.String[] assemblyPaths, System.Boolean enableLogging) [0x00007] in <5818bc53b12b4560b54110897827736e>:0 
-
-- Loaded All Assemblies, in  5.556 seconds
-Refreshing native plugins compatible for Editor in 12.23 ms, found 4 plugins.
-Native extension for iOS target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.718 seconds
-Domain Reload Profiling: 7294ms
-	BeginReloadAssembly (3387ms)
-		ExecutionOrderSort (7ms)
-		DisableScriptedObjects (515ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (5ms)
-		CreateAndSetChildDomain (1025ms)
-	RebuildCommonClasses (480ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (1592ms)
-		LoadAssemblies (1846ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (970ms)
-			TypeCache.Refresh (66ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (842ms)
-			ResolveRequiredComponents (30ms)
-	FinalizeReload (1719ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1333ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (13ms)
-			BeforeProcessingInitializeOnLoad (301ms)
-			ProcessInitializeOnLoadAttributes (848ms)
-			ProcessInitializeOnLoadMethodAttributes (134ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
-Refreshing native plugins compatible for Editor in 8.68 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6715 unused Assets / (5.3 MB). Loaded Objects now: 7435.
-Memory consumption went from 155.2 MB to 149.9 MB.
-Total: 32.666000 ms (FindLiveObjects: 2.948200 ms CreateObjectMapping: 1.587800 ms MarkObjects: 20.266700 ms  DeleteObjects: 7.857700 ms)
+Unloading 6715 unused Assets / (6.8 MB). Loaded Objects now: 7393.
+Memory consumption went from 155.0 MB to 148.2 MB.
+Total: 27.336600 ms (FindLiveObjects: 2.403300 ms CreateObjectMapping: 1.683500 ms MarkObjects: 14.510900 ms  DeleteObjects: 8.734700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
